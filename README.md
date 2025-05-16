@@ -234,6 +234,12 @@ Ensure port `3085` is allowed:
 sudo ufw allow 3085
 ```
 
+port running check:
+```bash
+sudo netstat -tuln | grep 3085
+
+```
+
 ---
 
 ### 🔍 Troubleshooting
