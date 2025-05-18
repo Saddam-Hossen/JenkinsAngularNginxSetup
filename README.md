@@ -240,6 +240,12 @@ sudo netstat -tuln | grep 3085
 
 ```
 
+kill running program by port:
+```bash
+sudo kill -9 $(sudo lsof -t -i:3085)
+
+```
+
 ---
 
 ### 🔍 Troubleshooting
