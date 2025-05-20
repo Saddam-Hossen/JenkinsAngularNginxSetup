@@ -158,7 +158,7 @@ Paste this:
 ```nginx
 server {
     listen 3085;
-    server_name 159.89.172.251;  # Replace with your domain if you have one
+    server_name 159.89.172.251;  # Replace with your domain if you have one (server_name attendance.deepseahost.com;)
 
     root /www/wwwroot/CITSNVN/jenkins/angular/browser;
     index index.html;
